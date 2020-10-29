@@ -2927,7 +2927,7 @@ periodics:
       secret:
         secretName: ci-pull-credentials
 - agent: kubernetes
-  cluster: api.ci
+  cluster: vsphere
   decorate: true
   interval: 12h
   labels:
@@ -3036,7 +3036,7 @@ periodics:
       secret:
         secretName: ci-pull-credentials
 - agent: kubernetes
-  cluster: api.ci
+  cluster: vsphere
   decorate: true
   interval: 12h
   labels:
